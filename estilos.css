@@ -1,0 +1,28 @@
+.carousel{
+    height: 32rem !important;
+}
+.imagen{
+    max-width: 100%;
+    height: auto;
+}
+#equipo{
+    padding-top: 20px;
+}
+#brand{
+    font-size: 20px;
+}
+
+@media(max-width: 760px){
+    .fila{
+        align-items: center;
+        width: 100% !important;
+    text-align: center;
+        
+    }
+}
+@media(max-width: 570px){
+    .carousel{
+        height: 16rem !important;
+    }
+    
+}
